@@ -1,0 +1,13 @@
+Vista1: Página principal
+-Debe mostrar artículos de opinión sobre videojuegos en los cuales se puede comentar
+-Una barra de navegación donde se pueda acceder a el apartado de juegos populares y a los juegos indies
+-Consolas de videojuegos y gadgets a la venta (Controles, fundas, etc) junto con sus imágenes
+-Posibilidad de acceder a la vista especializada de compra
+Vista2: Vista de juegos Populares
+- Debe mostrar juegos más recientes por plataforma (xbox, play, switch, pc)
+- Debe mostrar ofertas y destacados 
+- Debe mostrar un listado de todos los juegos disponibles a la venta para la plataforma
+Vista3: Vista de juegos Indie
+- Debe mostrar los juegos por concepto 
+- Debe mostrar una descripción de los desarrolladores de los juegos que aparezcan como destacados
+- Debe mostrar un listado de juegos que también puede mostrar la plataforma en que se encuentran disponibles, pero no con una separación tan marcada
