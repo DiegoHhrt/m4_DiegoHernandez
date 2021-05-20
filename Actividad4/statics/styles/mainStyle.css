@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "title";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "text";
+    src: url("../fonts/IstokWeb-Regular.ttf");
+}
+@font-face {
+    font-family: "fancy";
+    src: url("../fonts/Lora-Regular.ttf");
+}
+body{
+    background-color: #351459;
+}
+header{
+    box-sizing: content-box;
+    padding: 2vh 5vw 1vh 5vw;
+    margin: -25px -25px 0 -20px;
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    text-align: right;
+    background-color: #191F91;
+    color: #21CCBD;
+}
+nav{
+
+}
+.hotTopic, .articles{
+    overflow-wrap: break-word;
+    width: 75%;
+    box-sizing: border-box;
+    margin: 5vh 2vw 5vh 1vw;
+    padding: 10px 30px 10px 30px;
+    border: #21CCBD 8px solid;
+    border-radius: 50px;
+    background-color: #191F91;
+}
+.artTitle{
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    color: white;
+}
+.authorNscience{
+    font-family: "fancy", Georgia, Times, serif;
+    color: white;
+}
+.articleDescription{
+    font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    color: white;
+}
