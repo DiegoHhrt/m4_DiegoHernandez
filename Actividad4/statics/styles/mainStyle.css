@@ -23,9 +23,15 @@ header{
     color: #21CCBD;
 }
 nav{
-
+    box-sizing: content-box;
+    padding: 0 0 0 0;
+    margin: 20px 20px 20px 20px;
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    text-align: right;
+    background-color: #191F91;
+    border: #21CCBD 6px solid;
 }
-.hotTopic, .articles{
+.hotTopic{
     overflow-wrap: break-word;
     width: 75%;
     box-sizing: border-box;
@@ -34,6 +40,24 @@ nav{
     border: #21CCBD 8px solid;
     border-radius: 50px;
     background-color: #191F91;
+}
+.articles{
+    overflow-wrap: break-word;
+    width: 75%;
+    box-sizing: border-box;
+    margin: 5vh 2vw 5vh 1vw;
+    padding: 0 0 0 0;
+    border: #21CCBD 4px solid;
+    border-radius: 50px;
+    background-color: #191F91;
+}
+.indArt{
+    box-sizing: border-box;
+    overflow-wrap: inherit;
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+    border: inherit;
+    border-radius: inherit;
 }
 .artTitle{
     font-family: "title", Verdana, Tahoma, sans-serif;
@@ -46,4 +70,17 @@ nav{
 .articleDescription{
     font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
     color: white;
+}
+footer
+{
+    box-sizing: content-box;
+    padding: 2vh 5vw 1vh 5vw;
+    margin: -25px -25px 0 -20px;
+    font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    text-align: right;
+    background-color: #191F91;
+    color: #21CCBD;
+}
+.feet{
+    width: 33%;
 }
