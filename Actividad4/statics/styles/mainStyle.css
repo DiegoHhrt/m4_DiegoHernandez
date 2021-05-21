@@ -44,7 +44,6 @@ nav{
     display: inline-block;
     height: 150px;
     margin: 0 0 0 0;
-    float: left;
 }
 .hotTopic{
     overflow-wrap: break-word;
@@ -52,10 +51,19 @@ nav{
     height: 450px;
     box-sizing: border-box;
     margin: 5vh 2vw 5vh 1vw;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 0px 10px 30px;
     border: #21CCBD 8px solid;
     border-radius: 50px;
     background-color: #191F91;
+    float: left;
+}
+
+#discussion{
+    background-color: #0D124D;
+    float: right;
+    width: 30%;
+    border-left: #21CCBD 8px solid;
+    border-radius: 0 50px 50px 0;
 }
 .articles{
     overflow-wrap: break-word;
@@ -63,7 +71,7 @@ nav{
     width: 75%;
     height: 1000px;
     box-sizing: border-box;
-    margin: 5vh 2vw 5vh 1vw;
+    margin: 5vh 2vw 10vh 1vw;
     padding: 0 0 0 0;
     border: #21CCBD 4px solid;
     border-radius: 50px;
@@ -95,18 +103,20 @@ nav{
 .artTitle{
     font-family: "title", Verdana, Tahoma, sans-serif;
     color: white;
+    width: 68%;
 }
 .authorNscience{
     font-family: "fancy", Georgia, Times, serif;
     color: white;
+    width: 68%;
 }
 .articleDescription{
     font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
     color: white;
+    width: 68%;
 }
 .profile{
     width: 100%;
-    height: 28%;
 }
 .scProfile
 {
@@ -115,16 +125,44 @@ nav{
     width: 90%;
     border-radius: 185px; 
 }
-footer
-{
+.investigadorN{
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+.divulgadorN{
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.ocupation{
+    font-family: "fancy", Georgia, Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+.Descript{
+    font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.footer{
     box-sizing: content-box;
-    padding: 2vh 5vw 1vh 5vw;
+    font-size: 12px;
+    height: 180px;
+    padding: 3vh 4vw 1vh 4vw;
     margin: -25px -25px 0 -20px;
     font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
-    text-align: right;
     background-color: #191F91;
     color: #21CCBD;
 }
-.feet{
+#feet1, #feet2{
     width: 33%;
+    float: left;
+    margin: 1vw 1vh 1vw 1vh;
+}
+#feet3{
+
+    width: 33%;
+    float: right;
+    margin: 1vw 1vh 1vw 1vh;
 }
