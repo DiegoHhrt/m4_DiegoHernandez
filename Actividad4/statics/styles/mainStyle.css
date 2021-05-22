@@ -21,6 +21,7 @@ header{
     text-align: right;
     background-color: #191F91;
     color: #21CCBD;
+    background: linear-gradient(180deg, rgba(25,31,145,1) 50%, rgba(53,20,89,1) 100%); 
 }
 nav{
     box-sizing: content-box;
@@ -29,8 +30,8 @@ nav{
     position: relative;
     left: 10%;
     overflow-wrap: normal;
-    overflow:hidden;
     overflow-x: scroll;
+    overflow-y: hidden;
     padding: 0 0 0 0;
     margin: 20px 20px 20px 20px;
     font-family: "title", Verdana, Tahoma, sans-serif;
@@ -57,11 +58,13 @@ nav{
     background-color: #191F91;
     float: left;
 }
-
 #discussion{
     background-color: #0D124D;
     float: right;
     width: 30%;
+    height: 100%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
     border-left: #21CCBD 8px solid;
     border-radius: 0 50px 50px 0;
 }
@@ -100,17 +103,19 @@ nav{
     height: 600;
     border: inherit;
 }
-.artTitle{
+.artTitle, #Name{
     font-family: "title", Verdana, Tahoma, sans-serif;
     color: white;
     width: 68%;
+    height: 5%;
 }
 .authorNscience{
     font-family: "fancy", Georgia, Times, serif;
     color: white;
     width: 68%;
+    height: 5%;
 }
-.articleDescription{
+.articleDescription, #biography{
     font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
     color: white;
     width: 68%;
@@ -145,15 +150,62 @@ nav{
     color: black;
     font-size: 15px;
 }
+.thinArticles{
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    width: 45%;
+    height: 1600px;
+    box-sizing: border-box;
+    margin: 5vh 2vw 10vh 1vw;
+    padding: 0 0 0 0;
+    border: #21CCBD 4px solid;
+    border-radius: 50px;
+    background-color: #191F91;
+}
+#arts{
+    margin-top: 1700px;
+}
+#colIzq{
+    float: left;
+}
+#colDer{
+    float: right;
+}
+.invest{
+    height: 1400px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    width: 72%;
+    box-sizing: border-box;
+    margin: 5vh 2vw 10vh 1vw;
+    padding: 0 0 0 0;
+    border: #21CCBD 4px solid;
+    border-radius: 50px;
+    background-color: #191F91;
+}
+.work{
+    height: 30px;
+}
+#biography, #Name{
+    padding: 2% 4% 2% 4%;
+    width: 65%;
+}
+#imgProfile{
+    height: 200px;
+    float: right;
+}
 .footer{
+    /*position: absolute;
+    bottom: 0;*/
     box-sizing: content-box;
     font-size: 12px;
     height: 180px;
     padding: 3vh 4vw 1vh 4vw;
-    margin: -25px -25px 0 -20px;
+    margin: -25px -25px -20px -20px;
     font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
     background-color: #191F91;
     color: #21CCBD;
+    background: linear-gradient(0deg, rgba(25,31,145,1) 50%, rgba(53,20,89,1) 100%); 
 }
 #feet1, #feet2{
     width: 33%;
