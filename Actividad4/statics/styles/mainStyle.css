@@ -1,6 +1,7 @@
+/*¿ Declaración de fuentes -------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: "title";
-    src: url("../fonts/Montserrat-Regular.ttf");
+  src: url("../fonts/Montserrat-Regular.ttf");
 }
 @font-face {
     font-family: "text";
@@ -10,6 +11,28 @@
     font-family: "fancy";
     src: url("../fonts/Lora-Regular.ttf");
 }
+/*¿ Formatos de texto generales*/
+.investigadorN{
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+.divulgadorN{
+    font-family: "title", Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.ocupation{
+    font-family: "fancy", Georgia, Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+.Descript{
+    font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+/*¿ Estilo general ------------------------------------------------------------------------------------------*/
 body{
     background-color: #351459;
 }
@@ -38,6 +61,7 @@ nav{
     background-color: #191F91;
     border: #21CCBD 6px solid;
 }
+/*¿ Estilo de las secciones principales----------------------------------------------------------------*/
 .navegation{
     position: relative;
     top: 0;
@@ -80,7 +104,9 @@ nav{
     border-radius: 50px;
     background-color: #191F91;
 }
+/*¿ Barra lateral de perfiles de científicos*/
 .scientists{
+    cursor: pointer;
     box-sizing: border-box;
     position: absolute;
     overflow-y: scroll;
@@ -95,6 +121,7 @@ nav{
     border: 8px solid #21CCBD;
     border-radius: 50px;
 }
+/*¿ Estilos de los artículos*/
 .indArt{
     box-sizing: border-box;
     overflow-wrap: inherit;
@@ -130,26 +157,7 @@ nav{
     width: 90%;
     border-radius: 185px; 
 }
-.investigadorN{
-    font-family: "title", Verdana, Tahoma, sans-serif;
-    font-size: 17px;
-    text-align: center;
-}
-.divulgadorN{
-    font-family: "title", Verdana, Tahoma, sans-serif;
-    font-size: 14px;
-    text-align: center;
-}
-.ocupation{
-    font-family: "fancy", Georgia, Times, serif;
-    font-size: 14px;
-    text-align: center;
-}
-.Descript{
-    font-family: "text", 'Trebuchet MS', 'Lucida Sans', sans-serif;
-    color: black;
-    font-size: 15px;
-}
+/*¿ Estilos de la vista de artículos*/
 .thinArticles{
     overflow-wrap: break-word;
     overflow-y: scroll;
@@ -171,6 +179,7 @@ nav{
 #colDer{
     float: right;
 }
+/*¿ Estilos de la sección de perfíl de investigador*/
 .invest{
     height: 1400px;
     overflow-wrap: break-word;
@@ -194,6 +203,7 @@ nav{
     height: 200px;
     float: right;
 }
+/*¿ elementos del footer-------------------------------------------------------*/
 .footer{
     /*position: absolute;
     bottom: 0;*/
