@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(19, 22, 39);
+}
+.navbar{
+    background-image: url(./img/40164.jpg);
+}
+.f{
+    color: blanchedalmond;
+}
+.card, .accordion, .accordion-item{
+    background-color: rgb(24, 32, 99);
+    color: rgb(219, 219, 219);
+}
+.form-control, .form-select{
+    background-color: cornsilk;
+}
